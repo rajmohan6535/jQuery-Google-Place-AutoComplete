@@ -1,2 +1,13 @@
 # jQuery-Google-Place-AutoComplete
-Team Members
+
+## Usage
+
+```javascript
+let locationPicker = $('#example1').LocationRegionPicker({
+                    types: '(regions)',
+                    map: 'map', // map elemetn id
+                    placeChanged: function (place, map) {
+                        
+                    }
+                });
+```

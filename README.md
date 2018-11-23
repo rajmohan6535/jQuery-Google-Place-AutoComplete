@@ -15,11 +15,11 @@ let locationPicker = $('#example1').LocationRegionPicker({
                     }
                 });
                 
-                To get Latitide and longitude
+```
+To get Latitide and longitude
                 
-                ```javascript
+```javascript
                  placeChanged: function (place, map) {
                         console.log(place.geometry.location.lat(),place.geometry.location.lng());
                     }
-                ```
 ```
